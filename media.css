@@ -1,0 +1,42 @@
+/* media queries  */
+
+@media screen and (max-width: 920px) {
+  .heading-text {
+    font-size: 40px;
+    display: block;
+  }
+
+  .searchbox-area {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .top-header-right {
+    position: relative;
+    float: left;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .top-header-nav li:last-child:after {
+    content: "|";
+    padding-left: 8px;
+    padding-right: 3px;
+  }
+
+  .top-header-nav li {
+    display: block;
+    margin: 5px;
+  }
+
+  /* .heading-text {
+      position: static; 
+    display: block;
+    margin: auto; 
+} */
+}
